@@ -1,1 +1,4 @@
-# Sentiment-analysis
+# Sentiment analysis (Neural Networks project)
+This is the final project for the Neural Networks course, as part of the Artificial Intelligence Bachelor at the University of Groningen. It was a group project and the team consisted of Mihai Tanase, Astrid Iliescu, Alexia Spinei, and me.
+
+We aimed to create a feedforward neural network that can perform sentiment analysis and classify movie reviews as being either positive or negative. For this we used the bag-of-words approach. We collected the data, pre-processed it by removing punctuation or non-alphabetical characters and splitting it into words (tokens), and divided it into the training and test sets. We performed hyperparameter tuning on the model with the parameters being the number of layers, number of nodes per layer and the learning rate of the Nadam optimizer, in order to obtain the best possible model in optimal time. Then, we trained and tested our model using cross-validation. Our findings showed that the network had an accuracy of approximately 84.95\% (+-0.964) with the loss being approximately 0.7.
